@@ -1,0 +1,6 @@
+tim.c:30:6:MX_TIM1_Init	112	static
+tim.c:104:6:HAL_TIM_Base_MspInit	24	static
+tim.c:119:6:HAL_TIM_MspPostInit	40	static
+tim.c:147:6:HAL_TIM_Base_MspDeInit	16	static
+tim.c:165:6:PWM_Servo_Start	24	static
+tim.c:189:6:PWM_Servo_Stop	8	static

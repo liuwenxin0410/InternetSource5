@@ -1,0 +1,5 @@
+gpio.c:41:6:MX_GPIO_Init	48	static
+gpio.c:95:6:MOTOR_CONTROL	16	static
+gpio.c:148:6:Step_Motor_Start	24	static
+gpio.c:158:6:Step_Motor_Stop	8	static
+gpio.c:168:6:HAL_GPIO_EXTI_Callback	16	static

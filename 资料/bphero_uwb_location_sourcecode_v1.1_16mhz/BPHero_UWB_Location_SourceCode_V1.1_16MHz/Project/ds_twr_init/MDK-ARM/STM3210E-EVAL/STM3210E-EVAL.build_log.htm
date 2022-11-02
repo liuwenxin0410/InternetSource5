@@ -1,0 +1,173 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.35.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1, 1, LIC=9WSKC-78UHA-WFNI7-EC3FY-84HUL-63SCK
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.35.0.2
+Toolchain Path:  F:\keil5\K5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.35.0.2
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+E:\diansai_code\UWB\×ÊÁÏ\bphero_uwb_location_sourcecode_v1.1_16mhz\BPHero_UWB_Location_SourceCode_V1.1_16MHz\Project\ds_twr_init\MDK-ARM\Project.uvprojx
+Project File Date:  08/14/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'F:\keil5\K5\ARM\ARMCC\Bin'
+Rebuild target 'ds_twr_init'
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_exti.c...
+compiling misc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_it.c...
+compiling main.c...
+..\main.c(223): warning:  #177-D: variable "buff"  was declared but never referenced
+      uint8 buff[5];
+..\main.c(225): warning:  #550-D: variable "cnt"  was set but never used
+      int cnt ;
+..\main.c(359): warning:  #177-D: variable "final_distance"  was declared but never referenced
+      float final_distance = 0;
+..\main.c(532): warning:  #177-D: variable "Semaphore_Enable"  was declared but never referenced
+      uint8 Semaphore_Enable = 0 ;
+..\main.c(533): warning:  #177-D: variable "Waiting_TAG_Release_Semaphore"  was declared but never referenced
+      uint8 Waiting_TAG_Release_Semaphore = 0;
+..\main.c(582): warning:  #177-D: variable "rx_ant_delay"  was declared but never referenced
+      int rx_ant_delay =32880;
+..\main.c(583): warning:  #177-D: variable "index"  was declared but never referenced
+      int index = 0 ;
+..\main.c(1110): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+          OLED_ShowString(0, 2,dist_str);
+..\main.c(1118): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+          OLED_ShowString(0, 4,dist_str);
+..\main.c(1126): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+          OLED_ShowString(0, 6,dist_str);
+..\main.c(91): warning:  #177-D: variable "Semaphore_Release"  was declared but never referenced
+  static uint8 Semaphore_Release[] =    {0x41, 0x88, 0, 0x0, 0xDE, 'W', 'A', 'V', 'E', 0xE0, 0, 0, 0};
+..\main.c(92): warning:  #177-D: variable "Tag_Statistics"  was declared but never referenced
+  static uint8 Tag_Statistics[] =                      {0x41, 0x88, 0, 0x0, 0xDE, 'W', 'A', 'V', 'E', 0xE1, 0, 0, 0};
+..\main.c(93): warning:  #177-D: variable "Master_Release_Semaphore"  was declared but never referenced
+  static uint8 Master_Release_Semaphore[] =            {0x41, 0x88, 0, 0x0, 0xDE, 'W', 'A', 'V', 'E', 0xE2, 0, 0, 0};
+..\main.c(94): warning:  #177-D: variable "Tag_Statistics_response"  was declared but never referenced
+  static uint8 Tag_Statistics_response[] =             {0x41, 0x88, 0, 0x0, 0xDE, 'W', 'A', 'V', 'E', 0xE3, 0, 0, 0};
+..\main.c(95): warning:  #177-D: variable "Master_Release_Semaphore_comfirm"  was declared but never referenced
+  static uint8 Master_Release_Semaphore_comfirm[] =    {0x41, 0x88, 0, 0x0, 0xDE, 'W', 'A', 'V', 'E', 0xE4, 0, 0, 0};
+..\main.c(119): warning:  #177-D: variable "frame_seq_nb_semaphore"  was declared but never referenced
+  static uint8 frame_seq_nb_semaphore = 0;
+..\main.c: 16 warnings, 0 errors
+compiling stm32f10x_usart.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_cec.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_wwdg.c...
+compiling system_stm32f10x.c...
+compiling stm32f10x_pwr.c...
+compiling core_cm3.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_tim.c...
+compiling stm32_eval.c...
+compiling stm3210e_eval_fsmc_sram.c...
+compiling stm32_eval_i2c_tsensor.c...
+compiling stm32_eval_spi_flash.c...
+assembling startup_stm32f10x_hd.s...
+compiling stm3210e_eval_fsmc_nor.c...
+compiling stm3210e_eval_fsmc_nand.c...
+compiling stm32_eval_sdio_sd.c...
+compiling stm3210e_eval_lcd.c...
+compiling deca_mutex.c...
+compiling deca_sleep.c...
+compiling lcd.c...
+compiling deca_params_init.c...
+compiling deca_spi.c...
+compiling lcd_oled.c...
+compiling port.c...
+..\platform\port.c(851): warning:  #223-D: function "putchar" declared implicitly
+          putchar(s[i]);
+..\platform\port.c: 1 warning, 0 errors
+compiling deca_range_tables.c...
+compiling deca_device.c...
+..\decadriver\deca_device.c(1050): warning:  #68-D: integer conversion resulted in a change of sign
+      uint32  regval = DWT_ERROR ;
+..\decadriver\deca_device.c(1082): warning:  #68-D: integer conversion resulted in a change of sign
+      uint16  regval = DWT_ERROR ;
+..\decadriver\deca_device.c(1396): warning:  #68-D: integer conversion resulted in a change of sign
+          return DWT_ERROR;
+..\decadriver\deca_device.c(1530): warning:  #68-D: integer conversion resulted in a change of sign
+          return DWT_ERROR;
+..\decadriver\deca_device.c: 4 warnings, 0 errors
+compiling kalman.c...
+compiling AT24C02.c...
+..\at24c16\AT24C02.c(341): warning:  #1-D: last line of file ends without a newline
+  }
+..\at24c16\AT24C02.c: 1 warning, 0 errors
+compiling matrix.c...
+compiling trilateration.c...
+..\trilateration\trilateration.c(534): warning:  #550-D: variable "solution_compare2"  was set but never used
+      vec3d   solution_compare1, solution_compare2;
+..\trilateration\trilateration.c(712): warning:  #223-D: function "printf" declared implicitly
+      printf("r1=%f , r2=%f, r3=%f,  r4=%f\r\n",r1,r2,r3,r4);
+..\trilateration\trilateration.c(815): warning:  #223-D: function "printf" declared implicitly
+      printf("TAG LOC:x = %f,y = %f\r\n",x0,y0);
+..\trilateration\trilateration.c(760): warning:  #550-D: parameter "use4thAnchor"  was set but never used
+  int GetLocation2(vec3d * best_solution,int use4thAnchor,vec3d * anchorArray,int * distanceArray)
+..\trilateration\trilateration.c(941): warning:  #223-D: function "abs" declared implicitly
+          if (abs(points_AC_0 - circles[2].r) < abs(points_AC_1 - circles[2].r))//cross_point[0]
+..\trilateration\trilateration.c(1047): warning:  #223-D: function "printf" declared implicitly
+  		printf("TAG LOC My:x = %3.2f,y = %3.2f\r\n",P_1,P_2);
+..\trilateration\trilateration.c(967): warning:  #550-D: variable "Location"  was set but never used
+      struct  point_t points[1],Location[1];;
+..\trilateration\trilateration.c(1085): warning:  #223-D: function "printf" declared implicitly
+  	printf("TAG LOC My1:x = %3.2f,y = %3.2f\r\n",resultPose.x,resultPose.y);
+..\trilateration\trilateration.c: 8 warnings, 0 errors
+linking...
+Program Size: Code=11940 RO-data=2720 RW-data=816 ZI-data=1872  
+FromELF: creating hex file...
+".\STM3210E-EVAL\STM3210E-EVAL.axf" - 0 Error(s), 30 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_ds_twr_init
+  F:\keil5\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  F:\keil5\K5\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+Build Time Elapsed:  00:00:10
+</pre>
+</body>
+</html>

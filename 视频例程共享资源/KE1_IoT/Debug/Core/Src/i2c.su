@@ -1,0 +1,7 @@
+i2c.c:30:6:MX_I2C2_Init	8	static
+i2c.c:71:6:HAL_I2C_MspInit	48	static
+i2c.c:101:6:HAL_I2C_MspDeInit	16	static
+i2c.c:130:9:CheckCrc8	24	static
+i2c.c:156:19:i2c_write_cmd	32	static
+i2c.c:165:19:KE1_I2C_SHT31_Init	16	static
+i2c.c:179:5:KE1_I2C_SHT31	40	static

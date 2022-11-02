@@ -1,0 +1,4 @@
+main.c:62:6:vdAscii2hex	32	static
+main.c:81:5:main	984	static
+main.c:221:6:SystemClock_Config	192	static
+main.c:281:6:Error_Handler	4	static,ignoring_inline_asm

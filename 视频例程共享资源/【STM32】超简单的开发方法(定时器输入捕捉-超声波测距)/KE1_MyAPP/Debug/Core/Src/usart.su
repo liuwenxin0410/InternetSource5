@@ -1,0 +1,11 @@
+usart.c:33:6:MX_USART1_UART_Init	8	static
+usart.c:64:6:MX_USART2_UART_Init	8	static
+usart.c:95:6:MX_USART3_UART_Init	8	static
+usart.c:125:6:HAL_UART_MspInit	64	static
+usart.c:209:6:HAL_UART_MspDeInit	16	static
+usart.c:280:1:__io_putchar	16	static
+usart.c:299:6:UART_Enable_Receive_IT	8	static
+usart.c:306:6:HAL_UART_RxCpltCallback	16	static
+usart.c:323:5:UART_Put_AT_Cmd	24	static
+usart.c:331:5:UART_Get_AT_Resp	32	static
+usart.c:353:5:UART2_Read	32	static
